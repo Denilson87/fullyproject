@@ -1,0 +1,15 @@
+.card-about{
+	box-shadow: 0 0 10px rgba(0,0,0,0.08);
+	padding: 20px;
+	min-height: 325px;
+	background: rgba(36, 90, 36, 0.12);
+}
+
+.card-about i{
+	padding-right: 10px;
+}
+
+.about-block h3{
+	font-weight: 500;
+	color: #ED1B24;
+}

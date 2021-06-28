@@ -1,0 +1,278 @@
+.corpo{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.jobs-search{
+	background: #333333;
+	padding: 35px 70px;
+}
+
+.jobs-search .form-group{
+	margin-bottom: 0;
+}
+
+.btn-search-jobs {
+	color: #ffffff;
+	background-color: #ED1B24;
+	border-color: #ED1B24;
+}
+
+.corpo h3{
+	position: relative;
+	display: block;
+	font-size: 26px;
+	line-height: 1.2em;
+	color: #333333;
+	font-weight: 200;
+	margin-bottom: 15px;
+}
+
+.corpo h5{
+	position: relative;
+	display: block;
+	font-size: 18px;
+	line-height: 1.2em;
+	color: #333333;
+	font-weight: 200;
+	margin-top: 40px;
+}
+
+.corpo h5 span{
+	font-weight: 700;
+}
+
+table.dataTable {
+	border-collapse: collapse !important;
+	}
+
+.page-item.active .page-link {
+	z-index: 3;
+	color: #ED1B24;
+	background-color: #ffffff;
+	border-color: #e8ebee;
+}
+
+div.dataTables_wrapper div.dataTables_paginate {
+	margin-top: 60px;
+}
+
+.link-op {
+	color: #ED1B24;
+	font-weight: 300;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.link-op:hover {
+	color: #ED1B24;
+}
+
+.col-md-4 .black-normal{
+	padding-top: 10px;
+}
+
+.col-md-4 .img-fluid{
+	width: 100%;
+	max-height: 240px;
+	min-height: 240px;
+	height: 240px !important;
+}
+
+.titulo-oportunidade{
+	font-size: 34px !important;
+	font-weight: 100 !important;
+	margin: 25px 0 55px !important;
+}
+
+.second-row{
+	margin-top: 40px;
+}
+
+.pagination{
+	font-size: small;
+}
+
+.table-striped tbody tr:nth-of-type(1) {
+	background-color: rgba(0, 0, 0, 0);
+	height: 40px;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table th, .table td {
+	border-top: none;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.table-container{
+	padding: 20px 0;
+}
+
+.dataTables_filter{
+	display: none;
+}
+
+.table thead th {
+	border-top: none;
+	font-weight: 600;
+	border-bottom: none;
+}
+
+.table thead tr:nth-child(1) th {
+	border-bottom: 2px solid #525455;
+}
+
+.table thead th:hover{
+	color: #ED1B24;
+}
+
+.job-link {
+	color: #666666;
+}
+
+.job-link:hover {
+	color: #ED1B24;
+}
+
+.bs-wizard {margin-top: 40px;}
+
+/*Form Wizard*/
+.bs-wizard {border-bottom: solid 1px #e0e0e0; padding: 0 0 10px 0;}
+.bs-wizard > .bs-wizard-step {padding: 0; position: relative;}
+.bs-wizard > .bs-wizard-step + .bs-wizard-step {}
+.bs-wizard > .bs-wizard-step .bs-wizard-info {color: #999; font-size: 14px;}
+.bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {width:100%;}
+.bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {width:50%;}
+.bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar {width:0%;}
+.bs-wizard > .bs-wizard-step:last-child.active > .progress > .progress-bar {width: 100%;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot:after {opacity: 0;}
+.bs-wizard > .bs-wizard-step:first-child  > .progress {left: 50%; width: 50%;}
+.bs-wizard > .bs-wizard-step:last-child  > .progress {
+	width: 50%;
+	background: #737678;
+}
+.bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot{ pointer-events: none; }
+
+.bs-wizard > .bs-wizard-step > .progress > .progress-bar {
+	width: 0px;
+	box-shadow: none;
+	background: #00b336;
+}
+
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot {
+	background-color: #555;
+	width: 12px;
+	height: 12px;
+	top: 53px;
+	left: 53%;
+}
+
+.bs-wizard > .bs-wizard-step > .progress {
+	position: relative;
+	border-radius: 0px;
+	height: 2px;
+	box-shadow: none;
+	margin: 20px 0;
+}
+
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {
+	content: ' ';
+	width: 10px;
+	height: 10px;
+	background: #00b336;
+	border-radius: 50px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	display: block;
+	background: rgba(87, 215, 116, 0.7019607843137254);
+	top: 45px;
+	left: 50%;
+	margin-top: -15px;
+	margin-left: -15px;
+	border-radius: 50%;
+}
+
+.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {
+	color: #212529;
+	font-size: 16px;
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+
+.header-title h4{
+	font-weight: 600;
+	line-height: 1.4;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+.header-title p{
+	margin-bottom: 2rem;
+}
+
+.form-control {
+	border: 1px solid #00b336;
+	border-radius: 0;
+}
+
+label{
+	text-align: right;
+}
+
+label span{
+	color: #ED1B24;
+}
+
+.btn{
+	text-transform: uppercase;
+	font-size: 14px;
+	border-radius: 20px;
+	min-height: 2.5rem;
+}
+
+.btn-secondary {
+	color: #28a745;
+	background-color: #ffffff;
+	border-color: #28a745;
+	border-width: 2px;
+}
+
+.btn-secondary:hover {
+	color: #fff;
+	background-color: #28a745;
+	border-color: #28a745;
+}
+
+.btn-secondary i{
+	padding-right:10px;
+}
+
+.btn-success i{
+	padding-left:10px;
+}
+
+.form-oportunidades h4{
+	margin-top: 2.4rem;
+	margin-bottom: 1.6rem;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.42105;
+}
+
+.file-upload{
+	padding: 4px 0px;
+}
+/*END Form Wizard*/
